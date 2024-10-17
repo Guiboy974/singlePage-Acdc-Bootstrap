@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Hard Rock';
+    src: url('../fonts/HARD_ROCK.ttf') format(TrueType);
+}
+
+@font-face {
+    font-family: 'Rocknroll';
+    src: url('../fonts/rocknroll_typo_crazy.ttf') format(TrueType);
+}
+
+@font-face {
+    font-family: 'TheDark';
+    src: url('../fonts/TheDark.ttf') format(TrueType);
+}
+
+a.navbar-brand, ul.navbar-nav {
+    font-family: 'TheDark';
+}
