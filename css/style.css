@@ -23,13 +23,14 @@ body {
 }
 
 .card {
-    width: 20%;
+    box-shadow: 10px 10px 10px #000000;
+    
 }
 
-i.text-danger {
+/* i.text-danger {
     stroke-linecap="butt";
     stroke="black";
     stroke-width="20";
     stroke-linejoin="miter"
-}
+} */
 
