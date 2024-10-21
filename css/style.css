@@ -13,6 +13,10 @@
     src: url('../fonts/TheDark.ttf') format(TrueType);
 }
 
+nav.navbar {
+    max-width: 50%;
+}
+
 a.navbar-brand, ul.navbar-nav, h4.text-white {
     font-family: 'TheDark';
 }
@@ -27,10 +31,9 @@ body {
     
 }
 
-/* i.text-danger {
-    stroke-linecap="butt";
-    stroke="black";
-    stroke-width="20";
-    stroke-linejoin="miter"
-} */
-
+@media screen and (min-width: 540px){
+    .card {
+        width: 20%;
+   
+    } 
+}
