@@ -49,7 +49,7 @@
 
       <!-- {# carousel #} -->
 
-      <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto mt-2">
+      <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto mt-2 mb-3">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -112,7 +112,7 @@
       </section>
 
       <!-- {# discographie #} -->
-      <section class="mt-4">
+      <section class="mt-5">
         <div class="mb-3">
           <h4 class="text-white text-center">AC<i class="bi bi-lightning-fill text-danger"></i>DC -- La discographie --</h4>
         </div>
@@ -195,7 +195,7 @@
           </div>
         </article>
       </section>
-      <section class="mt-4">
+      <section class="mt-5">
         <div class="mb-3">
           <h4 class="text-white text-center">AC<i class="bi bi-lightning-fill text-danger"></i>DC -- Les dates des concerts --</h4>
         </div>
@@ -249,6 +249,31 @@
             </tbody>
           </table>
         </div>
+      </section>
+      <section>
+        <div class="mt-5 mb-3">
+          <h4 class="text-white text-center">AC<i class="bi bi-lightning-fill text-danger"></i>DC -- Contact --</h4>
+        </div>
+        <article class="mt-4 w-75 mx-auto">
+          <form class="row g-3">
+            <div class="col-6">
+              <input type="text" class="form-control" id="inputNom" placeholder="Nom" required>
+            </div>
+            <div class="col-6">
+              <input type="text" class="form-control" id="inputPrenom" placeholder="Prénom" required>
+            </div>
+            <div class="col-12">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" pattern="[^@\s]+@[^@\s]+" required>
+            </div>
+            <div class="col-12">
+              <textarea  class="form-control" id="inputMessage" placeholder="Votre message" rows="5" required></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-danger m-1">Envoyer</button>
+              <button type="submit" class="btn btn-danger m-1">Annuler</button>
+            </div>
+          </form>
+        </article>
       </section>
 </body>
 
